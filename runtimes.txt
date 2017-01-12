@@ -1,0 +1,582 @@
+<!-- originally newabout.htm --> 
+<!DOCTYPE html> 
+<html>
+	<head>
+          <link type = "text/css" rel = "stylesheet" href = "runstyle.css"/>
+	  <script type="text/javascript" src="kecleonrun.js"></script> 
+          <title> Samuel Stern </title> 
+	</head>
+	<body id = "inteiro">
+	<div id = "omnia">
+		<div id = "headr"> 
+		<p id = "subsec"> 
+About - 
+<a href = http://www.samuel-stern.info>Resume</a> - 
+<a href = http://www.samuel-stern.info>Run times</a> - 
+<a href = http://www.samuel-stern.info>Whiteboard drawings</a> - 
+<a href = http://www.samuel-stern.info>Reading material</a> - 
+<a href = http://www.samuel-stern.info>Answers</a>
+		</p>
+		</div>
+    <div id = "allbuttons">
+      <button id = "but1" type = "button" class = "buttons" onclick = "redize()"></button>
+      <button id = "but2" type = "button" class = "buttons" onclick = "yellowize()"></button>
+      <button id = "but3" type = "button" class = "buttons" onclick = "greenize()"></button>
+      <button id = "but4" type = "button" class = "buttons" onclick = "blueize()"></button>
+      <button id = "but5" type = "button" class = "buttons" onclick = "violetize()"></button>
+      <button id = "but6" type = "button" class = "buttons" onclick = "silverize()"></button>
+    </div>
+		<div id = "bods"> 
+    <p id = explanat> 
+    Some of Samuel Stern's latest running times. 
+    </p> 
+    <table id = timesTable> 
+      <thead id = leadoff> <tr>
+        <th> Date </th> <th> Type </th> <th> Time </th>
+        <th> Length </th> </tr> 
+       </thead>
+       <tbody id = roundoff>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:39 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 41:06 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:18:87 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:17 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:15:80 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:70 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/12/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 41:64 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 6/5/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 23:51:70 </td>
+       <td class = nodes> 2.9 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:66 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:84 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:19:46 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:84 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/28/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:21:04 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/23/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 22:38:69 </td>
+       <td class = nodes> 3.1 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:11 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:58 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:19:48 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:97 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 5/15/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:17:80 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:83 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:05 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:14:47 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:56 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:17:30 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:51 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:61 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 4/21/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:17:75 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:25 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:20 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:15:49 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:84 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:80 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:17:27 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:58 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/29/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:17:93 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/19/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 32:09:57 </td>
+       <td class = nodes> 4 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/11/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 39:46:74 </td>
+       <td class = nodes> 4.6 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:89 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:10 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:15:58 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:10 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:10 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:20:10 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 41:10 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 3/1/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:10 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/21/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 20:50:31 </td>
+       <td class = nodes> 2.8 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:26 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:75 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:20:25 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 39:04 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 36:16 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:18:72 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 2/7/16</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:19 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 1/10/16</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 23:24:34 </td>
+       <td class = nodes> 3.1 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:88 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:16:19 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:70 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:88 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/13/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:15:46 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 12/3/15</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 27:43:82 </td>
+       <td class = nodes> 3.3 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:89 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 36:82 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:18:44 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:70 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:44 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/15/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:15:50 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/8/15</td>
+       <td class = nodes> Distance </td>
+       <td class = nodes> 36:58:06 </td>
+       <td class = nodes> 4.5 miles </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:46 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 35:44 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:19:18 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:25 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:69 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 11/2/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:19:57 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+
+
+
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:40 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 36:96 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:18:96 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:63 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 37:72 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:18:83 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 40:19 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 38:19 s </td>
+       <td class = nodes> 200 m </td>
+       </tr>
+       <tr class = times> 
+       <td class = nodes> 10/19/15</td>
+       <td class = nodes> Sprinting </td>
+       <td class = nodes> 1:20:38 s </td>
+       <td class = nodes> 400 m </td>
+       </tr>
+       </tbody>
+    </table>
+		</div>
+		<div id = "footr">
+      <div id = "foot1">
+        <p class = "foot">
+          Contact: sastern@wesleyan.edu
+        </p>
+      </div>
+      <div id = "foot2">
+        <p class = "foot">
+          Powered by programmers' tears 
+        </p>
+      </div>   
+		</div>
+		<div id = "pusher"> </div> 
+	</div>
+	</body>
+</html>
